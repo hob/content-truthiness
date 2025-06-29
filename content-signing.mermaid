@@ -1,0 +1,25 @@
+---
+config:
+  layout: dagre
+---
+flowchart TD
+    A["Content Creator"] -- Creates content --> B["User-Created Content"]
+    subgraph UserAgent
+        B --> Hashing
+        Hashing --> Hash[Content Hash]
+        D[User DID's Private Key] --> Signing
+        Hash --> Signing
+        Signing --> E[Signed Hash]
+        B --> Packaging
+        E --> Packaging
+        Packaging --> Package[Signed User-Created Content]
+    end
+
+    subgraph Content Network
+        Package -- Publishes --> PC[Platform Content]
+    end
+
+    D@{ shape: rect}
+    Packaging@{shape: circle}
+    Signing@{shape: circle}
+    Hashing@{shape: circle}
