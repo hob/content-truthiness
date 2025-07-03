@@ -1,0 +1,27 @@
+graph TD
+    subgraph Trust Governance
+      Authority[<b>Authority</b><br/><i>NASA, WHO, etc.</i>] -- "Register as an issuer of Domain Authority credentials" --> CredPlat[<b>Credential Platform</b><br/><i>Dock.io, Accredible, etc.</i>];
+      Issuer[<b>Issuer</b><br/><i>University, Medical Board, etc.</i>] --> | Register as an Issuer  | CredPlat
+      Authority -- "Issues Trusted Issuer Credentials for specific domains" --> Issuer;
+    end
+ 
+    Issuer -- "Issues Credential within authorized domains" --> Creator[<b>Content Creator</b><br/><i>Astrophysicist, Doctor, etc.</i>];
+
+    subgraph Content Creation
+      Creator -- "Posts Signed Content with category labels" --> ContentPlat[<b>Content Platform</b><br/><i>e.g. Bluesky, TAO</i>];
+      ContentPlat -- "Requests VC Presentation based on content categories" --> Creator;
+    end
+
+    subgraph Content Consumption
+        User[<b>User</b>] -- "Configures Trusted Authorities" --> ContentPlat;
+        ContentPlat -- "Queries Credential Platform for Authorities/Issuers" --> CredPlat;
+        User -- "Views Content" --> ContentPlat;
+        ContentPlat -- "Displays Content & Calculated Truthiness Score" --> User;
+    end
+
+    style Authority fill:#f9f,stroke:#333,stroke-width:2px;
+    style Issuer fill:#ccf,stroke:#333,stroke-width:2px;
+    style Creator fill:#afa,stroke:#333,stroke-width:2px;
+    style ContentPlat fill:#ddf,stroke:#333,stroke-width:2px;
+    style User fill:#fdf,stroke:#333,stroke-width:2px;
+    style CredPlat fill:#eef,stroke:#333,stroke-width:2px;
