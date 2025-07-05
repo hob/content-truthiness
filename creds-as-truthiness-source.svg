@@ -1,0 +1,141 @@
+<svg width="1000" height="700.0000000000001" xmlns="http://www.w3.org/2000/svg">
+ <!-- Background -->
+ <!-- Title -->
+ <!-- Content Creator 1: Astrophysicist -->
+ <!-- Content Creator 2: Accountant -->
+ <!-- Arrow from Creator 1 to Content -->
+ <!-- Content Section (Astronomy) -->
+ <!-- Schema Weights Table -->
+ <!-- Scoring Process -->
+ <!-- Final Score Display -->
+ <!-- Arrows converging into Truthiness Scoring -->
+ <!-- From Content Subject to Scoring (start from right side of subject box, bend down) -->
+ <!-- From Dr. Smith's VC to Scoring (start from right side of VC box, bend down) -->
+ <!-- From Schema Weights Table PhD row (start from left side, extend left, bend down) -->
+ <!-- From Scoring to Final Score -->
+ <!-- Arrow marker definitions -->
+ <defs>
+  <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+   <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d" id="svg_1"/>
+  </marker>
+  <marker id="arrowhead-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+   <polygon points="0 0, 10 3.5, 0 7" fill="#2196f3" id="svg_2"/>
+  </marker>
+  <marker id="arrowhead-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+   <polygon points="0 0, 10 3.5, 0 7" fill="#82b366" id="svg_3"/>
+  </marker>
+  <marker id="arrowhead-darkgreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+   <polygon points="0 0, 10 3.5, 0 7" fill="#27ae60" id="svg_4"/>
+  </marker>
+ </defs>
+ <!-- Legend -->
+ <g>
+  <title>Layer 1</title>
+  <path fill="#f8f9fa" opacity="undefined" d="m0,-1.08108l1000,0l0,700l-1000,0l0,-700z" id="svg_5"/>
+  <text x="500" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#2c3e50" id="svg_6">Diagram 2.2: Credentials as Content Metadata and Truthiness Scoring</text>
+  <g id="svg_7">
+   <rect x="50" y="80" width="200" height="100" fill="#e8f4f8" stroke="#3498db" stroke-width="2" rx="5" id="svg_8"/>
+   <text x="150" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50" id="svg_9">Content Creator 1</text>
+   <text x="150" y="118" text-anchor="middle" font-size="12" fill="#34495e" id="svg_10">Dr. Jane Smith</text>
+   <text x="150" y="132" text-anchor="middle" font-size="10" fill="#7f8c8d" id="svg_11">DID: did:example:astro123</text>
+   <!-- VC owned by astrophysicist -->
+   <rect x="60" y="145" width="180" height="25" fill="#d5e8d4" stroke="#82b366" rx="3" id="svg_12"/>
+   <text x="150" y="160" text-anchor="middle" font-size="10" fill="#2c3e50" id="svg_13">VC: PhD in Astrophysics</text>
+  </g>
+  <g id="svg_14">
+   <rect x="50" y="200" width="200" height="100" fill="#fff8e1" stroke="#ff9800" stroke-width="2" rx="5" id="svg_15"/>
+   <text x="150" y="220" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50" id="svg_16">Content Creator 2</text>
+   <text x="150" y="238" text-anchor="middle" font-size="12" fill="#34495e" id="svg_17">John Williams</text>
+   <text x="150" y="252" text-anchor="middle" font-size="10" fill="#7f8c8d" id="svg_18">DID: did:example:cpa456</text>
+   <!-- VC owned by accountant -->
+   <rect x="60" y="265" width="180" height="25" fill="#ffe0b2" stroke="#f57c00" rx="3" id="svg_19"/>
+   <text x="150" y="280" text-anchor="middle" font-size="10" fill="#2c3e50" id="svg_20">VC: Certified Public Accountant</text>
+  </g>
+  <path d="m250,130l89.45945,0" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrowhead)" id="svg_21"/>
+  <text x="285" y="125" text-anchor="middle" font-size="10" fill="#7f8c8d" id="svg_22">creates</text>
+  <g id="svg_23">
+   <rect x="340" y="80" width="200" height="120" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" rx="5" id="svg_24"/>
+   <text x="440" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50" id="svg_25">Content Post</text>
+   <text x="440" y="120" text-anchor="middle" font-size="11" fill="#34495e" id="svg_26">"Black holes emit radiation..."</text>
+   <!-- Content metadata -->
+   <rect x="350" y="130" width="180" height="25" fill="#bbdefb" stroke="#1976d2" rx="3" id="svg_27"/>
+   <text x="440" y="145" text-anchor="middle" font-size="10" fill="#2c3e50" id="svg_28">Subject: Astronomy</text>
+   <rect x="350" y="160" width="180" height="25" fill="#c8e6c9" stroke="#4caf50" rx="3" id="svg_29"/>
+   <text x="440" y="175" text-anchor="middle" font-size="10" fill="#2c3e50" id="svg_30">Digitally Signed ✓</text>
+  </g>
+  <g id="svg_31">
+   <rect x="600" y="80" width="320" height="180" fill="#f5f5f5" stroke="#95a5a6" stroke-width="2" rx="5" id="svg_32"/>
+   <text x="760" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#2c3e50" id="svg_33">Schema Weights for Subject Areas</text>
+   <!-- Table Header -->
+   <rect x="610" y="110" width="300" height="25" fill="#34495e" rx="3" id="svg_34"/>
+   <text x="680" y="125" text-anchor="middle" font-size="11" font-weight="bold" fill="white" id="svg_35">Credential Schema</text>
+   <text x="800" y="125" text-anchor="middle" font-size="11" font-weight="bold" fill="white" id="svg_36">Astronomy</text>
+   <text x="860" y="125" text-anchor="middle" font-size="11" font-weight="bold" fill="white" id="svg_37">Finance</text>
+   <!-- PhD in Astrophysics - matches creator 1's credential color -->
+   <rect x="610" y="135" width="300" height="25" fill="#d5e8d4" stroke="#82b366" rx="3" id="svg_38"/>
+   <text x="680" y="150" text-anchor="middle" font-size="10" fill="#2c3e50" id="svg_39">PhD in Astrophysics</text>
+   <text x="800" y="150" text-anchor="middle" font-size="10" font-weight="bold" fill="#27ae60" id="svg_40">0.9</text>
+   <text x="860" y="150" text-anchor="middle" font-size="10" fill="#7f8c8d" id="svg_41">0.0</text>
+   <!-- Bachelor's in Physics -->
+   <rect x="610" y="160" width="300" height="25" fill="#e8f5e9" stroke="#4caf50" rx="3" id="svg_42"/>
+   <text x="680" y="175" text-anchor="middle" font-size="10" fill="#2c3e50" id="svg_43">Bachelor's in Physics</text>
+   <text x="800" y="175" text-anchor="middle" font-size="10" font-weight="bold" fill="#66bb6a" id="svg_44">0.6</text>
+   <text x="860" y="175" text-anchor="middle" font-size="10" fill="#7f8c8d" id="svg_45">0.0</text>
+   <!-- CPA - matches creator 2's credential color -->
+   <rect x="610" y="185" width="300" height="25" fill="#ffe0b2" stroke="#f57c00" rx="3" id="svg_46"/>
+   <text x="680" y="200" text-anchor="middle" font-size="10" fill="#2c3e50" id="svg_47">Certified Public Accountant</text>
+   <text x="800" y="200" text-anchor="middle" font-size="10" fill="#7f8c8d" id="svg_48">0.0</text>
+   <text x="860" y="200" text-anchor="middle" font-size="10" font-weight="bold" fill="#f57c00" id="svg_49">0.8</text>
+   <!-- Medical Doctor -->
+   <rect x="610" y="210" width="300" height="25" fill="#ffebee" stroke="#f44336" rx="3" id="svg_50"/>
+   <text x="680" y="225" text-anchor="middle" font-size="10" fill="#2c3e50" id="svg_51">Medical Doctor</text>
+   <text x="800" y="225" text-anchor="middle" font-size="10" fill="#7f8c8d" id="svg_52">0.1</text>
+   <text x="860" y="225" text-anchor="middle" font-size="10" fill="#7f8c8d" id="svg_53">0.0</text>
+  </g>
+  <g id="svg_54">
+   <rect x="200" y="320" width="600" height="200" fill="#ecf0f1" stroke="#95a5a6" stroke-width="2" rx="5" id="svg_55"/>
+   <text x="500" y="345" text-anchor="middle" font-size="16" font-weight="bold" fill="#2c3e50" id="svg_56">Truthiness Scoring Process</text>
+   <!-- Step 1 -->
+   <g id="svg_57">
+    <circle cx="235" cy="375" r="12" fill="#3498db" stroke="#2980b9" stroke-width="2" id="svg_58"/>
+    <text x="235" y="379" text-anchor="middle" font-size="12" font-weight="bold" fill="white" id="svg_59">1</text>
+    <text x="260" y="379" font-size="12" fill="#2c3e50" id="svg_60">Match Creator's VCs to Content Subject</text>
+    <text x="260" y="395" font-size="10" fill="#7f8c8d" id="svg_61">• Dr. Smith's PhD in Astrophysics → Astronomy content</text>
+    <text x="260" y="410" font-size="10" fill="#7f8c8d" id="svg_62">• John's CPA → Not relevant to Astronomy (weight = 0.0)</text>
+   </g>
+   <!-- Step 2 -->
+   <g id="svg_63">
+    <circle cx="235" cy="435" r="12" fill="#27ae60" stroke="#229954" stroke-width="2" id="svg_64"/>
+    <text x="235" y="439" text-anchor="middle" font-size="12" font-weight="bold" fill="white" id="svg_65">2</text>
+    <text x="260" y="439" font-size="12" fill="#2c3e50" id="svg_66">Apply Schema Weights</text>
+    <text x="260" y="455" font-size="10" fill="#7f8c8d" id="svg_67">• PhD in Astrophysics for Astronomy: 0.9</text>
+    <text x="260" y="470" font-size="10" fill="#7f8c8d" id="svg_68">• Only VCs from user's trusted authorities count</text>
+   </g>
+   <!-- Step 3 -->
+   <g id="svg_69">
+    <circle cx="535" cy="435" r="12" fill="#ff7f00" stroke="#bf5f00" stroke-width="2" id="svg_70"/>
+    <text x="535.54054" y="439" text-anchor="middle" font-size="12" font-weight="bold" fill="white" id="svg_71" stroke="null">3</text>
+    <text x="560" y="439" font-size="12" fill="#2c3e50" id="svg_72">Calculate Truthiness Score</text>
+    <text x="560" y="455" font-size="10" fill="#7f8c8d" id="svg_73">• Aggregate weighted scores from all relevant VCs</text>
+    <text x="560" y="470" font-size="10" fill="#7f8c8d" id="svg_74">• Final Score: 0.9 (High credibility for astronomy)</text>
+   </g>
+  </g>
+  <g id="svg_75">
+   <rect x="400" y="550" width="200" height="80" fill="#2ecc71" stroke="#27ae60" stroke-width="3" rx="10" id="svg_76"/>
+   <text x="500" y="575" text-anchor="middle" font-size="14" font-weight="bold" fill="white" id="svg_77">Truthiness Score</text>
+   <text x="500" y="600" text-anchor="middle" font-size="24" font-weight="bold" fill="white" id="svg_78">0.9</text>
+   <text x="500" y="620" text-anchor="middle" font-size="11" fill="#e8f5e8" id="svg_79">High Credibility</text>
+  </g>
+  <path d="m240,157.7027l71.63636,0l0.15629,132.44029l125.20734,0.00205l0,29.85497" stroke-width="2" fill="none" marker-end="url(#arrowhead-green)" id="svg_81" stroke="#82b366"/>
+  <path d="m610,142l-25.36694,0l-0.54054,148.38835l-147.28668,0l0.19417,29.61165" stroke-width="2" fill="none" marker-end="url(#arrowhead-darkgreen)" id="svg_82" stroke="#27ae60"/>
+  <path d="m500,520l0,25" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrowhead)" id="svg_83"/>
+  <text x="520" y="535" font-size="10" fill="#7f8c8d" id="svg_84">results in</text>
+  <g id="svg_85">
+   <text x="51.64032" y="555.97825" font-size="12" font-weight="bold" fill="#2c3e50" id="svg_86">Key Concepts:</text>
+   <text x="51.64032" y="575.97825" font-size="10" fill="#7f8c8d" id="svg_87">• Schema weights determine relevance of credentials to specific subjects</text>
+   <text x="52.46048" y="591.79841" font-size="10" fill="#7f8c8d" id="svg_88">• Only VCs from user's trusted authorities contribute to the score</text>
+   <text x="51.64032" y="607.03554" font-size="10" fill="#7f8c8d" id="svg_90">• Higher scores indicate greater credibility for the subject matter</text>
+  </g>
+  <path d="m529.12364,142.45945l25.74123,0l0,147.82958l-117.86487,-0.15219l0,29.86316" stroke-width="2" fill="none" marker-end="url(#arrowhead-blue)" id="svg_80" stroke="#2196f3"/>
+ </g>
+</svg>
