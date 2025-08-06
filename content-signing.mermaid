@@ -4,7 +4,7 @@ config:
 ---
 flowchart TD
     A["Content Creator"] -- Creates content --> B["User-Created Content"]
-    subgraph UserAgent
+    subgraph Mobile Device
         B --> Hashing
         Hashing --> Hash[Content Hash]
         D[User DID's Private Key] --> Signing
